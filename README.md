@@ -1,2 +1,3 @@
 # proyecto_Tachira
-sitio web 
+Aqui vamos a demarcar las areas q tendra el sitio y los objetivos a cumplir:
+
