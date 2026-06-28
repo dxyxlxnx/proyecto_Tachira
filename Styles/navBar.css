@@ -1,0 +1,21 @@
+nav{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    background-color: #1c3144;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: #d4a359;
+}
+
+nav .barnav {
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    margin-right: 30px;
+}
+
+nav .barnav div:hover{
+    cursor: pointer;
+    background-color: #d4a359;
+}
