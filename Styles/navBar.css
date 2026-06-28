@@ -1,21 +1,76 @@
+header{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+/*---------------BARRA DE REDES SOCIALES---------*/
+
+.barra-links{
+    top: 0;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.barra-links .redSocial{
+    padding: 0.5rem 30px;
+    align-items: center;
+
+}
+
+.barra-links .redSocial img{
+    width: 100%;
+    height: 29px;
+} 
+
+.barra-links .redSocial img:hover{
+    cursor: pointer;
+    translate: 0 1.5px;
+    transition: all 0.3s;
+}
+
+/*------------BARRA DE NAVEGACION------------*/
+
 nav{
-    display: grid;
+    display: flex;
+    justify-content: space-between;
     grid-template-columns: 1fr auto;
     align-items: center;
     background-color: #1c3144;
     position: fixed;
-    top: 0;
+    top: auto;
     width: 100%;
-    border-bottom: #d4a359;
+    height: 60px;
+    border-bottom: #d4a359 6px solid;
+    margin: 0 auto;
+    padding: 0.5em 1em;
+    box-shadow:  0 4px 10px #a8a804cd;
 }
 
 nav .barnav {
-    display: grid;
-    grid-template-columns: repeat(4,auto);
-    margin-right: 30px;
+    display: flex;
+    align-items: center;
+    margin-right: 10%;
 }
 
-nav .barnav div:hover{
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+}
+
+nav .barnav li {
+    list-style: none;
+    padding: 3px;
+    color: white;
+    background-color: #0a1ed8;
+    box-shadow: 0 4px 10px #0008ff91;
+    border-radius: 15px;
+}
+
+nav .barnav li:hover{
     cursor: pointer;
     background-color: #d4a359;
+    box-shadow:  0 4px 10px #ffff00;
 }
